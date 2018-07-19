@@ -1,0 +1,48 @@
+
+/*FULL PAGE */
+
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+}
+
+/*HEADER STYLES */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    width: 50%;
+}
+
+main {
+    display: flex;
+    min-height: 75%;
+}
+
+.content {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
